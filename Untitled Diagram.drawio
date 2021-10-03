@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-10-03T06:18:49.009Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36" etag="pkI1Y5YbYDYQwvqeeZni" version="15.4.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-03T06:21:58.530Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36" etag="ck5iGYKyCC-i-1Tz6_ix" version="15.4.1" type="github">
   <diagram id="zPdTXQSxtvWJwbm5Ij7a" name="Page-1">
-    <mxGraphModel dx="2557" dy="912" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1730" dy="912" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -15,9 +15,6 @@
         </mxCell>
         <mxCell id="sXd-7HuucVghBjIRTJ-X-18" value="강의실" style="ellipse;whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="720" y="716" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="sXd-7HuucVghBjIRTJ-X-22" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" parent="1" source="sXd-7HuucVghBjIRTJ-X-25" target="sXd-7HuucVghBjIRTJ-X-26" edge="1">
-          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="sXd-7HuucVghBjIRTJ-X-23" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" parent="1" source="sXd-7HuucVghBjIRTJ-X-25" target="sXd-7HuucVghBjIRTJ-X-27" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -36,14 +33,11 @@
         <mxCell id="sXd-7HuucVghBjIRTJ-X-25" value="사용자" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="100" y="310" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="sXd-7HuucVghBjIRTJ-X-26" value="과목코드" style="ellipse;whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="230" y="150" width="120" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="sXd-7HuucVghBjIRTJ-X-27" value="이름" style="ellipse;whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-30" y="150" width="120" height="60" as="geometry" />
+          <mxGeometry x="35" y="150" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="sXd-7HuucVghBjIRTJ-X-28" value="학번" style="ellipse;whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="100" y="150" width="120" height="60" as="geometry" />
+          <mxGeometry x="165" y="150" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="sXd-7HuucVghBjIRTJ-X-37" value="요일" style="ellipse;whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="460" y="716" width="120" height="60" as="geometry" />
@@ -52,6 +46,9 @@
           <mxGeometry x="590" y="716" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="n602I3BggCeAoN6OrdP3-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="sXd-7HuucVghBjIRTJ-X-41" target="n602I3BggCeAoN6OrdP3-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n602I3BggCeAoN6OrdP3-27" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="sXd-7HuucVghBjIRTJ-X-41" target="n602I3BggCeAoN6OrdP3-25">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="sXd-7HuucVghBjIRTJ-X-41" value="위치시간" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -72,7 +69,7 @@
         <mxCell id="sXd-7HuucVghBjIRTJ-X-49" value="명" style="ellipse;whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="720" y="150" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="sXd-7HuucVghBjIRTJ-X-50" value="번호" style="ellipse;whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+        <mxCell id="sXd-7HuucVghBjIRTJ-X-50" value="과목번호" style="ellipse;whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="460" y="150" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="sXd-7HuucVghBjIRTJ-X-51" value="분반" style="ellipse;whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
@@ -140,26 +137,26 @@
         <mxCell id="n602I3BggCeAoN6OrdP3-13" value="포함" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="90" y="440" width="140" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="n602I3BggCeAoN6OrdP3-15" value="내시간표" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="100" y="590" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="n602I3BggCeAoN6OrdP3-23" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="n602I3BggCeAoN6OrdP3-17" target="n602I3BggCeAoN6OrdP3-15">
+        <mxCell id="n602I3BggCeAoN6OrdP3-26" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="n602I3BggCeAoN6OrdP3-15" target="n602I3BggCeAoN6OrdP3-25">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="n602I3BggCeAoN6OrdP3-17" value="강의실" style="ellipse;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="230" y="716" width="120" height="60" as="geometry" />
+        <mxCell id="n602I3BggCeAoN6OrdP3-15" value="내시간표" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="590" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="n602I3BggCeAoN6OrdP3-22" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="n602I3BggCeAoN6OrdP3-18" target="n602I3BggCeAoN6OrdP3-15">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="n602I3BggCeAoN6OrdP3-18" value="요일" style="ellipse;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-30" y="716" width="120" height="60" as="geometry" />
+        <mxCell id="n602I3BggCeAoN6OrdP3-18" value="과목번호" style="ellipse;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="35" y="716" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="n602I3BggCeAoN6OrdP3-24" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="n602I3BggCeAoN6OrdP3-19" target="n602I3BggCeAoN6OrdP3-15">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="n602I3BggCeAoN6OrdP3-19" value="시간" style="ellipse;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="100" y="716" width="120" height="60" as="geometry" />
+        <mxCell id="n602I3BggCeAoN6OrdP3-19" value="분반" style="ellipse;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="165" y="716" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="n602I3BggCeAoN6OrdP3-25" value="참조" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="580" width="140" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
